@@ -1,0 +1,86 @@
+Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => 1
+                    [users_id] => 1
+                    [name] => Ensinar Laravel
+                    [description] => Preparar os Fornmandos para o mundo empresarial
+                    [due_at] => 
+                    [status] => 
+                    [created_at] => 
+                    [updated_at] => 
+                    [usname] => Sara
+                )
+
+            [1] => stdClass Object
+                (
+                    [id] => 2
+                    [users_id] => 2
+                    [name] => Net e Mobile
+                    [description] => 
+                    [due_at] => 
+                    [status] => 
+                    [created_at] => 
+                    [updated_at] => 
+                    [usname] => Bruno
+                )
+
+            [2] => stdClass Object
+                (
+                    [id] => 3
+                    [users_id] => 3
+                    [name] => Organizar os Projectos
+                    [description] => 
+                    [due_at] => 
+                    [status] => 
+                    [created_at] => 
+                    [updated_at] => 
+                    [usname] => Hélder
+                )
+
+            [3] => stdClass Object
+                (
+                    [id] => 4
+                    [users_id] => 4
+                    [name] => Ensinar Inglês
+                    [description] => 
+                    [due_at] => 
+                    [status] => 
+                    [created_at] => 
+                    [updated_at] => 
+                    [usname] => Ana
+                )
+
+            [4] => stdClass Object
+                (
+                    [id] => 5
+                    [users_id] => 2
+                    [name] => Tarefa Teste
+                    [description] => 
+                    [due_at] => 
+                    [status] => 
+                    [created_at] => 
+                    [updated_at] => 
+                    [usname] => Bruno
+                )
+
+            [5] => stdClass Object
+                (
+                    [id] => 6
+                    [users_id] => 3
+                    [name] => Trefa Teste2
+                    [description] => 
+                    [due_at] => 
+                    [status] => 
+                    [created_at] => 
+                    [updated_at] => 
+                    [usname] => Hélder
+                )
+
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
