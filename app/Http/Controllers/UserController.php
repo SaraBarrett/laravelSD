@@ -59,6 +59,24 @@ class UserController extends Controller
             ->where('id', $id)
             ->delete();
 
+        return back();
+    }
+
+    public function viewTask($id)
+    {
+        $ourTask = DB::table('tasks')
+            ->where('id', $id)
+            ->first();
+
+        return view('users.view_task', compact('ourTask'));
+    }
+
+    public function deleteTask($id)
+    {
+
+        DB::table('tasks')
+            ->where('id', $id)
+            ->delete();
 
         return back();
     }

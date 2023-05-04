@@ -80,6 +80,16 @@ Route::get(
 )->name('show_all_tasks');
 
 Route::get(
+    '/view_task/id={id}',
+    [UserController::class, 'viewTask']
+)->name('show_task');
+
+Route::get(
+    '/delete_task{id}',
+    [UserController::class, 'deleteTask']
+)->name('delete_task');
+
+Route::get(
     '/view_user/id={id}',
     [UserController::class, 'viewUser']
 )->name('show_user');

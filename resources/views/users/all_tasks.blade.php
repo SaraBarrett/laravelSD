@@ -15,6 +15,7 @@
                     <th scope="col">Descrição</th>
                     <th scope="col">Status</th>
                     <th scope="col">Nome Utilizador</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -25,6 +26,11 @@
                         <td>{{ $item->description }}</td>
                         <td>{{ $item->status }}</td>
                         <td>{{ $item->usname }}</td>
+                        <td>
+                            <a href="{{ route('show_task', $item->id) }}"><button class="btn btn-info">Ver</button></a>
+                            <a href="{{ route('delete_task', $item->id) }}"><button
+                                    class="btn btn-danger">Delete</button></a>
+                        </td>
                     </tr>
                 @endforeach
 
