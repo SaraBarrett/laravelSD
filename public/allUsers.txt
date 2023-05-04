@@ -6,39 +6,27 @@ Illuminate\Support\Collection Object
                 (
                     [id] => 1
                     [name] => Sara
-                    [email] => sara@gmail.com
+                    [email] => sarass@gmail.com
                     [email_verified_at] => 
                     [password] => 1234
                     [remember_token] => 
                     [created_at] => 
-                    [updated_at] => 
+                    [updated_at] => 2023-05-03 21:16:59
                 )
 
             [1] => stdClass Object
                 (
                     [id] => 2
                     [name] => Bruno
-                    [email] => Bruno@gmail.com
+                    [email] => Brunof@gmail.com
                     [email_verified_at] => 
                     [password] => 1234
                     [remember_token] => 
                     [created_at] => 
-                    [updated_at] => 
+                    [updated_at] => 2023-05-03 20:36:54
                 )
 
             [2] => stdClass Object
-                (
-                    [id] => 3
-                    [name] => Hélder
-                    [email] => Hélder@gmail.com
-                    [email_verified_at] => 
-                    [password] => 1234
-                    [remember_token] => 
-                    [created_at] => 
-                    [updated_at] => 
-                )
-
-            [3] => stdClass Object
                 (
                     [id] => 4
                     [name] => Ana
@@ -50,16 +38,16 @@ Illuminate\Support\Collection Object
                     [updated_at] => 
                 )
 
-            [4] => stdClass Object
+            [3] => stdClass Object
                 (
-                    [id] => 5
+                    [id] => 14
                     [name] => Márcia
                     [email] => Marcia@gmail.com
                     [email_verified_at] => 
                     [password] => Marcia1234
                     [remember_token] => 
-                    [created_at] => 
-                    [updated_at] => 2023-04-26 21:26:46
+                    [created_at] => 2023-05-04 09:31:57
+                    [updated_at] => 2023-05-04 09:46:23
                 )
 
         )

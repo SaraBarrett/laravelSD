@@ -158,7 +158,7 @@ class HomeController extends Controller
         $request->validate([
             'name' => 'required|string|max:50',
             'description' => 'required|string',
-            'users_id' => 'required',
+            'users_id' => $request->users_id,
         ]);
 
         DB::table('tasks')

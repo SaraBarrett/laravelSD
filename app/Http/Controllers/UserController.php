@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Support\Facades\DB;
 
+
 class UserController extends Controller
 {
     public function index()
@@ -24,8 +25,14 @@ class UserController extends Controller
             'nome3' => 'Rúben',
         ];
 
-        $allUsers = DB::table('users')
-            ->get();
+        if (request()->query('user_id')) {
+            $allUsers = DB::table('users')
+                ->where('id', request()->query('user_id'))
+                ->get();
+        } else {
+            $allUsers = DB::table('users')
+                ->get();
+        }
 
         $cesaeInfo = $this->getCesaeInfo();
 
