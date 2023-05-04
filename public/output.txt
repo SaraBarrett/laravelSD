@@ -1,0 +1,7 @@
+Array
+(
+    [_token] => XNIaPNWKU40rxkOevw5ArckF2MMvykYMZZ9nlPMR
+    [name] => Sara
+    [email] => saramonteiro@gmail.com
+    [password] => 1234
+)

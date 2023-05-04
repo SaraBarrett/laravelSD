@@ -13,7 +13,6 @@ class UserController extends Controller
 
         $usersModel = User::all();
 
-        file_put_contents("usersModel.txt", print_r($usersModel, true));
         return view('users.home', compact('aMinhaVariavel'));
     }
 
@@ -28,8 +27,6 @@ class UserController extends Controller
         $allUsers = DB::table('users')
             ->get();
 
-        file_put_contents("allUsers.txt", print_r($allUsers, true));
-
         $cesaeInfo = $this->getCesaeInfo();
 
         return view('users.all_users', compact('oMeuArray', 'cesaeInfo', 'allUsers'));
@@ -43,13 +40,32 @@ class UserController extends Controller
 
     public function viewUser($id)
     {
-        $ourUser = User::where('id', $id)->first();
+        $ourUser = DB::table('users')
+            ->where('id', $id)
+            ->first();
 
         return view('users.view_user', compact('ourUser'));
     }
+
+    public function deleteUser($id)
+    {
+
+        DB::table('tasks')
+            ->where('users_id', $id)
+            ->delete();
+
+
+        DB::table('users')
+            ->where('id', $id)
+            ->delete();
+
+
+        return back();
+    }
+
     public function addUser()
     {
-        return view('users.all_users');
+        return view('users.add_user');
     }
     protected function getCesaeInfo()
     {
@@ -69,10 +85,6 @@ class UserController extends Controller
             ->join('users', 'users.id', '=', 'tasks.users_id')
             ->select('tasks.*', 'users.name as usname')
             ->get();
-
-
-        file_put_contents("test.txt", $allTasks);
-
 
         return $allTasks;
     }

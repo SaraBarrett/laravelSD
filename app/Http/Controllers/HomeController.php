@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\DB;
 use App\Models\Flight;
 use App\Models\User;
+use Illuminate\Console\View\Components\Task;
+use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
@@ -61,20 +63,20 @@ class HomeController extends Controller
     //função pública
     public function allContacts()
     {
+        $allUsers = $contacts = User::all();
 
-        //chamar a função do nosso Controller
-        if (request()->query('user_id')) {
+        if (!empty(request()->query('user_id'))) {
             $contacts = User::where('id', request()->query('user_id'))
                 ->get();
         } else {
-            $contacts = User::all();
+            $contacts = $allUsers;
         }
 
         $tasks = $this->getAllTasks();
 
 
         //retornar a view com os dados dos contactos
-        return view('contacts.all_contacts', compact('contacts', 'tasks'));
+        return view('contacts.all_contacts', compact('allUsers', 'contacts', 'tasks'));
     }
 
     public function viewContact($id)
@@ -124,10 +126,61 @@ class HomeController extends Controller
 
     public function addUser()
     {
-        $this->updateUser();
-        return view('contacts.add_contact');
+        $users = $this->getAllUsers();
+        return view('contacts.add_contact', compact('users'));
     }
 
+    public function createUser(Request $request)
+    {
+        $request->validate([
+            'name' => 'string|max:50',
+            'email' => 'required|email|unique:users',
+            'password' => 'required'
+        ]);
+
+        User::insert([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' =>  $request->password,
+        ]);
+
+        return redirect()->route('contacts.all')->with('message', 'Contacto adicionado com sucesso');
+    }
+
+    public function addTask()
+    {
+        $users = $this->getAllUsers();
+        return view('contacts.add_task', compact('users'));
+    }
+
+    public function createTask(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:50',
+            'description' => 'required|string',
+            'users_id' => 'required',
+        ]);
+
+        DB::table('tasks')
+            ->insert([
+                'name' => $request->name,
+                'description' => $request->description,
+                'users_id' => $request->users_id,
+            ]);
+
+        return redirect()->route('contacts.all')->with('message', 'Contacto adicionado com sucesso');
+    }
+    public function updateUser(Request $request)
+    {
+        User::where('id', $request->id)
+            ->update([
+                'name' => $request->name,
+                'email' => $request->email,
+                'password' =>  $request->password,
+            ]);
+
+        return redirect()->route('contacts.all')->with('message', 'Contacto actualizado com sucesso');
+    }
 
     protected function getCesaeInfo()
     {
@@ -153,18 +206,9 @@ class HomeController extends Controller
         return $message;
     }
 
-    protected function updateUser()
-    {
-        $message = 'Query Ok!';
 
-        DB::table('users')
-            ->where('email', 'Sara@gmail.com')
-            ->delete();
 
-        return $message;
-    }
-
-    protected function getAllUsers($id)
+    protected function getAllUsers()
     {
         $users = USer::all();
 

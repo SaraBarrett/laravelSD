@@ -8,7 +8,7 @@
     <div class="container">
         <h1>Adicionar Utilizador</h1>
 
-        <form method="POST" action="{{ route('create_contact') }}">
+        <form method="POST" action="{{ route('create_task') }}">
             @csrf
 
             <div class="mb-3">
@@ -23,8 +23,8 @@
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" name="email" value=""
+                <label for="exampleInputEmail1" class="form-label">Descrição</label>
+                <input type="text" name="description" value=""
                     class="form-control @error('email') is-invalid @enderror" id="exampleInputEmail1"
                     aria-describedby="emailHelp">
                 @error('email')
@@ -34,10 +34,13 @@
                 @enderror
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input name="password" value="" type="password" class="form-control" id="exampleInputPassword1">
-            </div>
+            <select class="custom-select" name="users_id" onchange="this.form.submit()">
+                <option value="" selected>Todos os Contactos</option>
+                @foreach ($users as $item)
+                    <option value="{{ $item->id }}">
+                        {{ $item->name }}</option>
+                @endforeach
+            </select>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>

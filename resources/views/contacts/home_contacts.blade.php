@@ -21,6 +21,9 @@
         <a href="{{ route('add_contact') }}">
             <li>Adicionar</li>
         </a>
+        <a href="{{ route('add_task') }}">
+            <li>Adicionar Tarefa</li>
+        </a>
     </ul>
 
     <h2>{{ $myVar }}</h2>

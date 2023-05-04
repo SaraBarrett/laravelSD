@@ -1,0 +1,11 @@
+stdClass Object
+(
+    [id] => 4
+    [name] => Ana
+    [email] => Ana@gmail.com
+    [email_verified_at] => 
+    [password] => 1234
+    [remember_token] => 
+    [created_at] => 
+    [updated_at] => 
+)

@@ -26,9 +26,9 @@
                         <td>{{ $item->email }}</td>
                         <td>
                             <a href="{{ route('show_user', $item->id) }}"><button class="btn btn-info">Ver</button></a>
-                            <a href=""><button class="btn btn-danger">Delete</button></a>
+                            <a href="{{ route('delete_user', $item->id) }}"><button
+                                    class="btn btn-danger">Delete</button></a>
                         </td>
-
                     </tr>
                 @endforeach
 

@@ -2,6 +2,11 @@
 
 @section('content')
     <div class="container">
+
+        @if (session('message'))
+            <div class="alert alert-success">{{ session('message') }}</div>
+        @endif
+
         <h2>Users</h2>
         <table class="table">
             <thead>
@@ -16,7 +21,7 @@
                 <form method="GET">
                     <select class="custom-select" name="user_id" onchange="this.form.submit()">
                         <option value="" selected>Todos os Contactos</option>
-                        @foreach ($contacts as $item)
+                        @foreach ($allUsers as $item)
                             <option @if ($item->id == request()->query('user_id')) selected @endif value="{{ $item->id }}">
                                 {{ $item->name }}</option>
                         @endforeach
