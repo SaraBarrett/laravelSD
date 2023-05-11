@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
-use GuzzleHttp\Psr7\Request;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
 
@@ -96,6 +96,9 @@ class UserController extends Controller
 
     public function createUser(Request $request)
     {
+
+        $myUser = $request->all();
+
         file_put_contents("request.txt", print_r($request->all(), true));
     }
 
