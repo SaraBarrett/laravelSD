@@ -79,3 +79,4 @@ Route::get(
 )->name('delete_user');
 
 Route::get('/home_add_user',   [UserController::class, 'addUser'])->name('add_user');
+Route::post('/create_user',   [UserController::class, 'createUser'])->name('create_user');

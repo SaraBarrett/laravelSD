@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use GuzzleHttp\Psr7\Request;
 use Illuminate\Support\Facades\DB;
 
 
@@ -92,6 +93,12 @@ class UserController extends Controller
     {
         return view('users.add_user');
     }
+
+    public function createUser(Request $request)
+    {
+        file_put_contents("request.txt", print_r($request->all(), true));
+    }
+
     protected function getCesaeInfo()
     {
         $cesaeInfo = [
