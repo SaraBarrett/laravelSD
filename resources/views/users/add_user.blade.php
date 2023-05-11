@@ -9,11 +9,16 @@
 
     <div class="container">
         <form method="POST" action="{{ route('create_user') }}">
+            @csrf
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                 <input type="email" class="form-control" name="email" value="" id="exampleInputEmail1"
                     aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+
+                @error('email')
+                    <div id="emailHelp" class="form-text">Insira um email válido.</div>
+                @enderror
+
             </div>
             <div class="mb-3">
                 <label for="exampleInputName1" class="form-label">Nome

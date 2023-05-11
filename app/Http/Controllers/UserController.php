@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 
 class UserController extends Controller
@@ -99,7 +100,21 @@ class UserController extends Controller
 
         $myUser = $request->all();
 
-        file_put_contents("request.txt", print_r($request->all(), true));
+        $request->validate(
+            [
+                'email' => 'required|email|unique:users',
+                'name' => 'required|string',
+                'password' => 'required',
+            ]
+        );
+
+        User::insert([
+            'email' => $request->email,
+            'name' =>  $request->name,
+            'password' => Hash::make($request->password)
+        ]);
+
+        return redirect('home_all_users')->with('message', 'Utilizador adicioonado com sucesso');
     }
 
     protected function getCesaeInfo()
