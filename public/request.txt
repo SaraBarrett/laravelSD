@@ -1,7 +1,0 @@
-Array
-(
-    [_token] => usH2scWCWpjDShJwVKB6T4amgsqCW0FKjIi6BgyU
-    [email] => saraTeste/@gmail.com
-    [name] => Sara
-    [password] => 1234
-)

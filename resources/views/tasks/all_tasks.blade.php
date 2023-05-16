@@ -6,7 +6,10 @@
 
 @section('content')
     <div class="container">
-        <h2 class="text-center">Tasks</h2>
+        @if (session('message'))
+            <div class="alert alert-success">{{ session('message') }}</div>
+        @endif
+        <h2 class="text-center">Tasks <a class="btn btn-success" href="{{ route('add_task') }}"> Adicionar Tarefa</a></h2>
         <table class="table">
             <thead>
                 <tr>

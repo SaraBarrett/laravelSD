@@ -44,7 +44,7 @@ class UserController extends Controller
     public function all_tasks()
     {
         $allTasks = $this->getAllTasks();
-        return view('users.all_tasks', compact('allTasks'));
+        return view('tasks.all_tasks', compact('allTasks'));
     }
 
     public function viewUser($id)
@@ -77,7 +77,7 @@ class UserController extends Controller
             ->where('id', $id)
             ->first();
 
-        return view('users.view_task', compact('ourTask'));
+        return view('tasks.view_task', compact('ourTask'));
     }
 
     public function deleteTask($id)
@@ -97,6 +97,7 @@ class UserController extends Controller
 
     public function createUser(Request $request)
     {
+
 
         $myUser = $request->all();
 
@@ -137,5 +138,32 @@ class UserController extends Controller
             ->get();
 
         return $allTasks;
+    }
+
+    public function addTask()
+    {
+        $allUsers = DB::table('users')
+            ->get();
+        return view('tasks.add_task', compact('allUsers'));
+    }
+
+    public function storeTask(Request $request)
+    {
+        $request->validate(
+            [
+                'name' => 'required|string|max:50',
+                'description' => 'required',
+                'user_id' => 'required',
+            ]
+        );
+
+        DB::table('tasks')->insert([
+            'name' => $request->name,
+            'description' =>  $request->description,
+            'users_id' => $request->user_id,
+
+        ]);
+
+        return redirect()->route('show_all_tasks')->with('message', 'Tarefa adicionada com sucesso');
     }
 }
