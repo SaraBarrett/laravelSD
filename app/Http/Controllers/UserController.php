@@ -27,12 +27,22 @@ class UserController extends Controller
             'nome3' => 'Rúben',
         ];
 
+        $search = request()->query('search') ? request()->query('search') : null;
+
         if (request()->query('user_id')) {
             $allUsers = DB::table('users')
                 ->where('id', request()->query('user_id'))
                 ->get();
         } else {
             $allUsers = DB::table('users')
+                ->get();
+        }
+
+
+        if ($search) {
+            $allUsers = DB::table('users')
+                ->where('name', 'LIKE', "%{$search}%")
+                ->orWhere('email', 'LIKE', "%{$search}%")
                 ->get();
         }
 
