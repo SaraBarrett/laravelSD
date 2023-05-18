@@ -3,7 +3,6 @@
 @section('title')
     <title>Adicionar Users</title>
 @endsection
-
 @section('content')
     <div class="container">
         <h1>Adicionar Tarefa</h1>
@@ -20,7 +19,7 @@
 
             </div>
             <div class="mb-3">
-                <label for="exampleInputDescription1" class="form-label">Nome
+                <label for="exampleInputDescription1" class="form-label">Descrição
                 </label>
                 <input name="description" type="text" value="" class="form-control" id="exampleInputDescription1"
                     aria-describedby="descriptionHelp">

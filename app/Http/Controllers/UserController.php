@@ -156,7 +156,6 @@ class UserController extends Controller
             ->get();
         return view('tasks.add_task', compact('allUsers'));
     }
-
     public function storeTask(Request $request)
     {
         $request->validate(
@@ -166,6 +165,8 @@ class UserController extends Controller
                 'user_id' => 'required',
             ]
         );
+
+        $userType =
 
         DB::table('tasks')->insert([
             'name' => $request->name,
