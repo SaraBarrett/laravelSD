@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -84,3 +85,5 @@ Route::post('/create_user',   [UserController::class, 'createUser'])->name('crea
 
 Route::get('/home_add_task',   [UserController::class, 'addTask'])->name('add_task');
 Route::post('/create_task',   [UserController::class, 'storeTask'])->name('create_task');
+
+Route::get('/dashboard',   [DashboardController::class, 'index'])->name('dashboard-index');

@@ -26,6 +26,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 1
                             [name] => Sara
+                            [user_type] => 0
                             [email] => novosass@gmail.com
                             [email_verified_at] => 
                             [password] => 123
@@ -41,6 +42,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 1
                             [name] => Sara
+                            [user_type] => 0
                             [email] => novosass@gmail.com
                             [email_verified_at] => 
                             [password] => 123
@@ -142,6 +144,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 2
                             [name] => Bruno
+                            [user_type] => 0
                             [email] => Brunof@gmail.com
                             [email_verified_at] => 
                             [password] => 1234
@@ -157,6 +160,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 2
                             [name] => Bruno
+                            [user_type] => 0
                             [email] => Brunof@gmail.com
                             [email_verified_at] => 
                             [password] => 1234
@@ -258,6 +262,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 4
                             [name] => Ana
+                            [user_type] => 0
                             [email] => Ana@gmail.com
                             [email_verified_at] => 
                             [password] => 1234
@@ -273,6 +278,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 4
                             [name] => Ana
+                            [user_type] => 0
                             [email] => Ana@gmail.com
                             [email_verified_at] => 
                             [password] => 1234
@@ -374,6 +380,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 14
                             [name] => Márcia
+                            [user_type] => 0
                             [email] => Marcia@gmail.com
                             [email_verified_at] => 
                             [password] => Marcia1234
@@ -389,6 +396,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 14
                             [name] => Márcia
+                            [user_type] => 0
                             [email] => Marcia@gmail.com
                             [email_verified_at] => 
                             [password] => Marcia1234
@@ -490,6 +498,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 16
                             [name] => Sara
+                            [user_type] => 0
                             [email] => sara@gmail.com
                             [email_verified_at] => 
                             [password] => 1234
@@ -505,6 +514,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 16
                             [name] => Sara
+                            [user_type] => 0
                             [email] => sara@gmail.com
                             [email_verified_at] => 
                             [password] => 1234
@@ -606,13 +616,14 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 17
                             [name] => Sara
+                            [user_type] => 0
                             [email] => saraTeste@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$RX2n2YgL3g4zUB8fQs0EAO74ICHd/8ABPkc2qdMOnzR//JgKWtnnq
                             [two_factor_secret] => 
                             [two_factor_recovery_codes] => 
                             [two_factor_confirmed_at] => 
-                            [remember_token] => Br5hvPisWlf4sdnZ4ohtU30Z4KjhiTEeA18Mha0egEZB4IfSS6CXTHdlQH9O
+                            [remember_token] => Ub9qVmABEBpMdZIO2IpVEolPc0atwtdxKhIsBVd89lFUegeqy7AracqVUsXZ
                             [created_at] => 
                             [updated_at] => 2023-05-24 16:01:50
                         )
@@ -621,13 +632,14 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 17
                             [name] => Sara
+                            [user_type] => 0
                             [email] => saraTeste@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$RX2n2YgL3g4zUB8fQs0EAO74ICHd/8ABPkc2qdMOnzR//JgKWtnnq
                             [two_factor_secret] => 
                             [two_factor_recovery_codes] => 
                             [two_factor_confirmed_at] => 
-                            [remember_token] => Br5hvPisWlf4sdnZ4ohtU30Z4KjhiTEeA18Mha0egEZB4IfSS6CXTHdlQH9O
+                            [remember_token] => Ub9qVmABEBpMdZIO2IpVEolPc0atwtdxKhIsBVd89lFUegeqy7AracqVUsXZ
                             [created_at] => 
                             [updated_at] => 2023-05-24 16:01:50
                         )
@@ -722,6 +734,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 18
                             [name] => Sara
+                            [user_type] => 0
                             [email] => saraTsseste@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$2wxabZpDBEkwp9nEU839m.szy1e5EaYNJfkXFp8iZk32Y7jo85Xhy
@@ -737,6 +750,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 18
                             [name] => Sara
+                            [user_type] => 0
                             [email] => saraTsseste@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$2wxabZpDBEkwp9nEU839m.szy1e5EaYNJfkXFp8iZk32Y7jo85Xhy
@@ -838,6 +852,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 19
                             [name] => Sara
+                            [user_type] => 0
                             [email] => saraTessssste@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$AkhS8fyQp9f5Mb9qaBH/VuEyl/uegAodQ2v7LJcJteQ7syouGMBgS
@@ -853,6 +868,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 19
                             [name] => Sara
+                            [user_type] => 0
                             [email] => saraTessssste@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$AkhS8fyQp9f5Mb9qaBH/VuEyl/uegAodQ2v7LJcJteQ7syouGMBgS
@@ -954,6 +970,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 20
                             [name] => saraTeste@gmail.com
+                            [user_type] => 0
                             [email] => saraTeste16@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$Pd6DcPAq4O.KTvh9Guc98OzLyJXXwVdYMH5mtm8pRr1j2AkFMMCvq
@@ -969,6 +986,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 20
                             [name] => saraTeste@gmail.com
+                            [user_type] => 0
                             [email] => saraTeste16@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$Pd6DcPAq4O.KTvh9Guc98OzLyJXXwVdYMH5mtm8pRr1j2AkFMMCvq
@@ -1070,6 +1088,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 21
                             [name] => Sara
+                            [user_type] => 0
                             [email] => saraTestsssssse@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$uq0Lav0SbTyjvsmkGeuZfevVDCSU3KjHBo7xpXjtMKQfVxi/v2/hK
@@ -1085,6 +1104,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 21
                             [name] => Sara
+                            [user_type] => 0
                             [email] => saraTestsssssse@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$uq0Lav0SbTyjvsmkGeuZfevVDCSU3KjHBo7xpXjtMKQfVxi/v2/hK
@@ -1186,6 +1206,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 22
                             [name] => Sara
+                            [user_type] => 1
                             [email] => sara.c.mon@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$5p93G3ynXU9SdyZ7aXbfHOMsgDTheYt5JKKOW8ZQVjtLRBe6lV6z2
@@ -1201,6 +1222,7 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 22
                             [name] => Sara
+                            [user_type] => 1
                             [email] => sara.c.mon@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$5p93G3ynXU9SdyZ7aXbfHOMsgDTheYt5JKKOW8ZQVjtLRBe6lV6z2

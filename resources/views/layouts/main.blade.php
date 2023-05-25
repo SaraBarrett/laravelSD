@@ -33,9 +33,12 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
+                    @auth
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('dashboard-index') }}">Back Office</a>
+                        </li>
+                    @endauth
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
                     </li>
