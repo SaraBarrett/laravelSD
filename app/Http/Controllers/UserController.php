@@ -16,6 +16,7 @@ class UserController extends Controller
 
         $usersModel = User::all();
 
+        file_put_contents("output.txt", print_r($usersModel, true));
         return view('users.home', compact('aMinhaVariavel'));
     }
 
@@ -168,12 +169,12 @@ class UserController extends Controller
 
         $userType =
 
-        DB::table('tasks')->insert([
-            'name' => $request->name,
-            'description' =>  $request->description,
-            'users_id' => $request->user_id,
+            DB::table('tasks')->insert([
+                'name' => $request->name,
+                'description' =>  $request->description,
+                'users_id' => $request->user_id,
 
-        ]);
+            ]);
 
         return redirect()->route('show_all_tasks')->with('message', 'Tarefa adicionada com sucesso');
     }

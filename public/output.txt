@@ -1,0 +1,1284 @@
+Illuminate\Database\Eloquent\Collection Object
+(
+    [items:protected] => Array
+        (
+            [0] => App\Models\User Object
+                (
+                    [connection:protected] => mysql
+                    [table:protected] => users
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [preventsLazyLoading] => 
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] => 
+                    [escapeWhenCastingToString:protected] => 
+                    [attributes:protected] => Array
+                        (
+                            [id] => 1
+                            [name] => Sara
+                            [email] => novosass@gmail.com
+                            [email_verified_at] => 
+                            [password] => 123
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 2023-05-10 11:01:46
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 1
+                            [name] => Sara
+                            [email] => novosass@gmail.com
+                            [email_verified_at] => 
+                            [password] => 123
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 2023-05-10 11:01:46
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                            [email_verified_at] => datetime
+                        )
+
+                    [classCastCache:protected] => Array
+                        (
+                        )
+
+                    [attributeCastCache:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] => 
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [timestamps] => 1
+                    [usesUniqueIds] => 
+                    [hidden:protected] => Array
+                        (
+                            [0] => password
+                            [1] => remember_token
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                            [0] => name
+                            [1] => email
+                            [2] => password
+                        )
+
+                    [guarded:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [rememberTokenName:protected] => remember_token
+                    [accessToken:protected] => 
+                )
+
+            [1] => App\Models\User Object
+                (
+                    [connection:protected] => mysql
+                    [table:protected] => users
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [preventsLazyLoading] => 
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] => 
+                    [escapeWhenCastingToString:protected] => 
+                    [attributes:protected] => Array
+                        (
+                            [id] => 2
+                            [name] => Bruno
+                            [email] => Brunof@gmail.com
+                            [email_verified_at] => 
+                            [password] => 1234
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 2023-05-03 20:36:54
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 2
+                            [name] => Bruno
+                            [email] => Brunof@gmail.com
+                            [email_verified_at] => 
+                            [password] => 1234
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 2023-05-03 20:36:54
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                            [email_verified_at] => datetime
+                        )
+
+                    [classCastCache:protected] => Array
+                        (
+                        )
+
+                    [attributeCastCache:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] => 
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [timestamps] => 1
+                    [usesUniqueIds] => 
+                    [hidden:protected] => Array
+                        (
+                            [0] => password
+                            [1] => remember_token
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                            [0] => name
+                            [1] => email
+                            [2] => password
+                        )
+
+                    [guarded:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [rememberTokenName:protected] => remember_token
+                    [accessToken:protected] => 
+                )
+
+            [2] => App\Models\User Object
+                (
+                    [connection:protected] => mysql
+                    [table:protected] => users
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [preventsLazyLoading] => 
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] => 
+                    [escapeWhenCastingToString:protected] => 
+                    [attributes:protected] => Array
+                        (
+                            [id] => 4
+                            [name] => Ana
+                            [email] => Ana@gmail.com
+                            [email_verified_at] => 
+                            [password] => 1234
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 4
+                            [name] => Ana
+                            [email] => Ana@gmail.com
+                            [email_verified_at] => 
+                            [password] => 1234
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                            [email_verified_at] => datetime
+                        )
+
+                    [classCastCache:protected] => Array
+                        (
+                        )
+
+                    [attributeCastCache:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] => 
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [timestamps] => 1
+                    [usesUniqueIds] => 
+                    [hidden:protected] => Array
+                        (
+                            [0] => password
+                            [1] => remember_token
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                            [0] => name
+                            [1] => email
+                            [2] => password
+                        )
+
+                    [guarded:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [rememberTokenName:protected] => remember_token
+                    [accessToken:protected] => 
+                )
+
+            [3] => App\Models\User Object
+                (
+                    [connection:protected] => mysql
+                    [table:protected] => users
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [preventsLazyLoading] => 
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] => 
+                    [escapeWhenCastingToString:protected] => 
+                    [attributes:protected] => Array
+                        (
+                            [id] => 14
+                            [name] => Márcia
+                            [email] => Marcia@gmail.com
+                            [email_verified_at] => 
+                            [password] => Marcia1234
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 2023-05-04 09:31:57
+                            [updated_at] => 2023-05-10 16:24:14
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 14
+                            [name] => Márcia
+                            [email] => Marcia@gmail.com
+                            [email_verified_at] => 
+                            [password] => Marcia1234
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 2023-05-04 09:31:57
+                            [updated_at] => 2023-05-10 16:24:14
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                            [email_verified_at] => datetime
+                        )
+
+                    [classCastCache:protected] => Array
+                        (
+                        )
+
+                    [attributeCastCache:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] => 
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [timestamps] => 1
+                    [usesUniqueIds] => 
+                    [hidden:protected] => Array
+                        (
+                            [0] => password
+                            [1] => remember_token
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                            [0] => name
+                            [1] => email
+                            [2] => password
+                        )
+
+                    [guarded:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [rememberTokenName:protected] => remember_token
+                    [accessToken:protected] => 
+                )
+
+            [4] => App\Models\User Object
+                (
+                    [connection:protected] => mysql
+                    [table:protected] => users
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [preventsLazyLoading] => 
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] => 
+                    [escapeWhenCastingToString:protected] => 
+                    [attributes:protected] => Array
+                        (
+                            [id] => 16
+                            [name] => Sara
+                            [email] => sara@gmail.com
+                            [email_verified_at] => 
+                            [password] => 1234
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 16
+                            [name] => Sara
+                            [email] => sara@gmail.com
+                            [email_verified_at] => 
+                            [password] => 1234
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                            [email_verified_at] => datetime
+                        )
+
+                    [classCastCache:protected] => Array
+                        (
+                        )
+
+                    [attributeCastCache:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] => 
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [timestamps] => 1
+                    [usesUniqueIds] => 
+                    [hidden:protected] => Array
+                        (
+                            [0] => password
+                            [1] => remember_token
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                            [0] => name
+                            [1] => email
+                            [2] => password
+                        )
+
+                    [guarded:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [rememberTokenName:protected] => remember_token
+                    [accessToken:protected] => 
+                )
+
+            [5] => App\Models\User Object
+                (
+                    [connection:protected] => mysql
+                    [table:protected] => users
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [preventsLazyLoading] => 
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] => 
+                    [escapeWhenCastingToString:protected] => 
+                    [attributes:protected] => Array
+                        (
+                            [id] => 17
+                            [name] => Sara
+                            [email] => saraTeste@gmail.com
+                            [email_verified_at] => 
+                            [password] => $2y$10$RX2n2YgL3g4zUB8fQs0EAO74ICHd/8ABPkc2qdMOnzR//JgKWtnnq
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => Br5hvPisWlf4sdnZ4ohtU30Z4KjhiTEeA18Mha0egEZB4IfSS6CXTHdlQH9O
+                            [created_at] => 
+                            [updated_at] => 2023-05-24 16:01:50
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 17
+                            [name] => Sara
+                            [email] => saraTeste@gmail.com
+                            [email_verified_at] => 
+                            [password] => $2y$10$RX2n2YgL3g4zUB8fQs0EAO74ICHd/8ABPkc2qdMOnzR//JgKWtnnq
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => Br5hvPisWlf4sdnZ4ohtU30Z4KjhiTEeA18Mha0egEZB4IfSS6CXTHdlQH9O
+                            [created_at] => 
+                            [updated_at] => 2023-05-24 16:01:50
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                            [email_verified_at] => datetime
+                        )
+
+                    [classCastCache:protected] => Array
+                        (
+                        )
+
+                    [attributeCastCache:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] => 
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [timestamps] => 1
+                    [usesUniqueIds] => 
+                    [hidden:protected] => Array
+                        (
+                            [0] => password
+                            [1] => remember_token
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                            [0] => name
+                            [1] => email
+                            [2] => password
+                        )
+
+                    [guarded:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [rememberTokenName:protected] => remember_token
+                    [accessToken:protected] => 
+                )
+
+            [6] => App\Models\User Object
+                (
+                    [connection:protected] => mysql
+                    [table:protected] => users
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [preventsLazyLoading] => 
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] => 
+                    [escapeWhenCastingToString:protected] => 
+                    [attributes:protected] => Array
+                        (
+                            [id] => 18
+                            [name] => Sara
+                            [email] => saraTsseste@gmail.com
+                            [email_verified_at] => 
+                            [password] => $2y$10$2wxabZpDBEkwp9nEU839m.szy1e5EaYNJfkXFp8iZk32Y7jo85Xhy
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 18
+                            [name] => Sara
+                            [email] => saraTsseste@gmail.com
+                            [email_verified_at] => 
+                            [password] => $2y$10$2wxabZpDBEkwp9nEU839m.szy1e5EaYNJfkXFp8iZk32Y7jo85Xhy
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                            [email_verified_at] => datetime
+                        )
+
+                    [classCastCache:protected] => Array
+                        (
+                        )
+
+                    [attributeCastCache:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] => 
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [timestamps] => 1
+                    [usesUniqueIds] => 
+                    [hidden:protected] => Array
+                        (
+                            [0] => password
+                            [1] => remember_token
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                            [0] => name
+                            [1] => email
+                            [2] => password
+                        )
+
+                    [guarded:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [rememberTokenName:protected] => remember_token
+                    [accessToken:protected] => 
+                )
+
+            [7] => App\Models\User Object
+                (
+                    [connection:protected] => mysql
+                    [table:protected] => users
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [preventsLazyLoading] => 
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] => 
+                    [escapeWhenCastingToString:protected] => 
+                    [attributes:protected] => Array
+                        (
+                            [id] => 19
+                            [name] => Sara
+                            [email] => saraTessssste@gmail.com
+                            [email_verified_at] => 
+                            [password] => $2y$10$AkhS8fyQp9f5Mb9qaBH/VuEyl/uegAodQ2v7LJcJteQ7syouGMBgS
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 19
+                            [name] => Sara
+                            [email] => saraTessssste@gmail.com
+                            [email_verified_at] => 
+                            [password] => $2y$10$AkhS8fyQp9f5Mb9qaBH/VuEyl/uegAodQ2v7LJcJteQ7syouGMBgS
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                            [email_verified_at] => datetime
+                        )
+
+                    [classCastCache:protected] => Array
+                        (
+                        )
+
+                    [attributeCastCache:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] => 
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [timestamps] => 1
+                    [usesUniqueIds] => 
+                    [hidden:protected] => Array
+                        (
+                            [0] => password
+                            [1] => remember_token
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                            [0] => name
+                            [1] => email
+                            [2] => password
+                        )
+
+                    [guarded:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [rememberTokenName:protected] => remember_token
+                    [accessToken:protected] => 
+                )
+
+            [8] => App\Models\User Object
+                (
+                    [connection:protected] => mysql
+                    [table:protected] => users
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [preventsLazyLoading] => 
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] => 
+                    [escapeWhenCastingToString:protected] => 
+                    [attributes:protected] => Array
+                        (
+                            [id] => 20
+                            [name] => saraTeste@gmail.com
+                            [email] => saraTeste16@gmail.com
+                            [email_verified_at] => 
+                            [password] => $2y$10$Pd6DcPAq4O.KTvh9Guc98OzLyJXXwVdYMH5mtm8pRr1j2AkFMMCvq
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 20
+                            [name] => saraTeste@gmail.com
+                            [email] => saraTeste16@gmail.com
+                            [email_verified_at] => 
+                            [password] => $2y$10$Pd6DcPAq4O.KTvh9Guc98OzLyJXXwVdYMH5mtm8pRr1j2AkFMMCvq
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                            [email_verified_at] => datetime
+                        )
+
+                    [classCastCache:protected] => Array
+                        (
+                        )
+
+                    [attributeCastCache:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] => 
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [timestamps] => 1
+                    [usesUniqueIds] => 
+                    [hidden:protected] => Array
+                        (
+                            [0] => password
+                            [1] => remember_token
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                            [0] => name
+                            [1] => email
+                            [2] => password
+                        )
+
+                    [guarded:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [rememberTokenName:protected] => remember_token
+                    [accessToken:protected] => 
+                )
+
+            [9] => App\Models\User Object
+                (
+                    [connection:protected] => mysql
+                    [table:protected] => users
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [preventsLazyLoading] => 
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] => 
+                    [escapeWhenCastingToString:protected] => 
+                    [attributes:protected] => Array
+                        (
+                            [id] => 21
+                            [name] => Sara
+                            [email] => saraTestsssssse@gmail.com
+                            [email_verified_at] => 
+                            [password] => $2y$10$uq0Lav0SbTyjvsmkGeuZfevVDCSU3KjHBo7xpXjtMKQfVxi/v2/hK
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 21
+                            [name] => Sara
+                            [email] => saraTestsssssse@gmail.com
+                            [email_verified_at] => 
+                            [password] => $2y$10$uq0Lav0SbTyjvsmkGeuZfevVDCSU3KjHBo7xpXjtMKQfVxi/v2/hK
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                            [email_verified_at] => datetime
+                        )
+
+                    [classCastCache:protected] => Array
+                        (
+                        )
+
+                    [attributeCastCache:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] => 
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [timestamps] => 1
+                    [usesUniqueIds] => 
+                    [hidden:protected] => Array
+                        (
+                            [0] => password
+                            [1] => remember_token
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                            [0] => name
+                            [1] => email
+                            [2] => password
+                        )
+
+                    [guarded:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [rememberTokenName:protected] => remember_token
+                    [accessToken:protected] => 
+                )
+
+            [10] => App\Models\User Object
+                (
+                    [connection:protected] => mysql
+                    [table:protected] => users
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [preventsLazyLoading] => 
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] => 
+                    [escapeWhenCastingToString:protected] => 
+                    [attributes:protected] => Array
+                        (
+                            [id] => 22
+                            [name] => Sara
+                            [email] => sara.c.mon@gmail.com
+                            [email_verified_at] => 
+                            [password] => $2y$10$5p93G3ynXU9SdyZ7aXbfHOMsgDTheYt5JKKOW8ZQVjtLRBe6lV6z2
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 60RP3TXyynYNn9SeHLSgZNReJ7LvcYfaAHYO4i24ZywLJ88ysrZmEvmIgcQK
+                            [created_at] => 
+                            [updated_at] => 2023-05-24 15:45:57
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 22
+                            [name] => Sara
+                            [email] => sara.c.mon@gmail.com
+                            [email_verified_at] => 
+                            [password] => $2y$10$5p93G3ynXU9SdyZ7aXbfHOMsgDTheYt5JKKOW8ZQVjtLRBe6lV6z2
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 60RP3TXyynYNn9SeHLSgZNReJ7LvcYfaAHYO4i24ZywLJ88ysrZmEvmIgcQK
+                            [created_at] => 
+                            [updated_at] => 2023-05-24 15:45:57
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                            [email_verified_at] => datetime
+                        )
+
+                    [classCastCache:protected] => Array
+                        (
+                        )
+
+                    [attributeCastCache:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] => 
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [timestamps] => 1
+                    [usesUniqueIds] => 
+                    [hidden:protected] => Array
+                        (
+                            [0] => password
+                            [1] => remember_token
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                            [0] => name
+                            [1] => email
+                            [2] => password
+                        )
+
+                    [guarded:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [rememberTokenName:protected] => remember_token
+                    [accessToken:protected] => 
+                )
+
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)
