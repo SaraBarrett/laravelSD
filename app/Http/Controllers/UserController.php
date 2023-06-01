@@ -6,17 +6,18 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Storage;
 
 
 class UserController extends Controller
 {
     public function index()
     {
+        dd(Storage::exists('imagens/teste.jpg'));
         $aMinhaVariavel = "Hello turma de Soft Dev!";
 
         $usersModel = User::all();
 
-        file_put_contents("output.txt", print_r($usersModel, true));
         return view('users.home', compact('aMinhaVariavel'));
     }
 
@@ -177,5 +178,10 @@ class UserController extends Controller
             ]);
 
         return redirect()->route('show_all_tasks')->with('message', 'Tarefa adicionada com sucesso');
+    }
+
+    public function resetPass()
+    {
+        return view('auth.reset_pass');
     }
 }

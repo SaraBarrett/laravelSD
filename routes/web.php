@@ -87,3 +87,5 @@ Route::get('/home_add_task',   [UserController::class, 'addTask'])->name('add_ta
 Route::post('/create_task',   [UserController::class, 'storeTask'])->name('create_task');
 
 Route::get('/dashboard',   [DashboardController::class, 'index'])->name('dashboard-index');
+
+Route::get('/reset-pass',   [UserController::class, 'resetPass'])->name('reset-pass');

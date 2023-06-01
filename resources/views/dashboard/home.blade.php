@@ -16,7 +16,7 @@
         <h4>Users da App</h4>
         <h4>Olá {{ Auth::user()->name }}
 
-            @if (Auth::user()->user_type == User::userAdmin)
+            @if (isset(Auth::user()->user_type) && Auth::user()->user_type == User::userAdmin)
                 <div class="alert alert-success">
                     Olá, Sou admin.
                 </div>

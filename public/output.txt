@@ -26,7 +26,6 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 1
                             [name] => Sara
-                            [user_type] => 0
                             [email] => novosass@gmail.com
                             [email_verified_at] => 
                             [password] => 123
@@ -36,13 +35,14 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 2023-05-10 11:01:46
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [original:protected] => Array
                         (
                             [id] => 1
                             [name] => Sara
-                            [user_type] => 0
                             [email] => novosass@gmail.com
                             [email_verified_at] => 
                             [password] => 123
@@ -52,6 +52,8 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 2023-05-10 11:01:46
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [changes:protected] => Array
@@ -144,7 +146,6 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 2
                             [name] => Bruno
-                            [user_type] => 0
                             [email] => Brunof@gmail.com
                             [email_verified_at] => 
                             [password] => 1234
@@ -154,13 +155,14 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 2023-05-03 20:36:54
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [original:protected] => Array
                         (
                             [id] => 2
                             [name] => Bruno
-                            [user_type] => 0
                             [email] => Brunof@gmail.com
                             [email_verified_at] => 
                             [password] => 1234
@@ -170,6 +172,8 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 2023-05-03 20:36:54
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [changes:protected] => Array
@@ -262,7 +266,6 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 4
                             [name] => Ana
-                            [user_type] => 0
                             [email] => Ana@gmail.com
                             [email_verified_at] => 
                             [password] => 1234
@@ -272,13 +275,14 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [original:protected] => Array
                         (
                             [id] => 4
                             [name] => Ana
-                            [user_type] => 0
                             [email] => Ana@gmail.com
                             [email_verified_at] => 
                             [password] => 1234
@@ -288,6 +292,8 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [changes:protected] => Array
@@ -380,7 +386,6 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 14
                             [name] => Márcia
-                            [user_type] => 0
                             [email] => Marcia@gmail.com
                             [email_verified_at] => 
                             [password] => Marcia1234
@@ -390,13 +395,14 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 2023-05-04 09:31:57
                             [updated_at] => 2023-05-10 16:24:14
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [original:protected] => Array
                         (
                             [id] => 14
                             [name] => Márcia
-                            [user_type] => 0
                             [email] => Marcia@gmail.com
                             [email_verified_at] => 
                             [password] => Marcia1234
@@ -406,6 +412,8 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 2023-05-04 09:31:57
                             [updated_at] => 2023-05-10 16:24:14
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [changes:protected] => Array
@@ -498,7 +506,6 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 16
                             [name] => Sara
-                            [user_type] => 0
                             [email] => sara@gmail.com
                             [email_verified_at] => 
                             [password] => 1234
@@ -508,13 +515,14 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [original:protected] => Array
                         (
                             [id] => 16
                             [name] => Sara
-                            [user_type] => 0
                             [email] => sara@gmail.com
                             [email_verified_at] => 
                             [password] => 1234
@@ -524,6 +532,8 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [changes:protected] => Array
@@ -616,32 +626,34 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 17
                             [name] => Sara
-                            [user_type] => 0
                             [email] => saraTeste@gmail.com
                             [email_verified_at] => 
-                            [password] => $2y$10$RX2n2YgL3g4zUB8fQs0EAO74ICHd/8ABPkc2qdMOnzR//JgKWtnnq
+                            [password] => $2y$10$vFVfJcLyISmYD8OnNEOAbuj9vOCqtQelvdORqt.34VuSA5Ixb3Lv.
                             [two_factor_secret] => 
                             [two_factor_recovery_codes] => 
                             [two_factor_confirmed_at] => 
-                            [remember_token] => Ub9qVmABEBpMdZIO2IpVEolPc0atwtdxKhIsBVd89lFUegeqy7AracqVUsXZ
+                            [remember_token] => 2bX5avJRYMTlqKKIve0lGhNfp7K7mS5dlbWzysvPSNDiTyHG4gCoWr9FcDA2
                             [created_at] => 
-                            [updated_at] => 2023-05-24 16:01:50
+                            [updated_at] => 2023-06-01 09:10:37
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [original:protected] => Array
                         (
                             [id] => 17
                             [name] => Sara
-                            [user_type] => 0
                             [email] => saraTeste@gmail.com
                             [email_verified_at] => 
-                            [password] => $2y$10$RX2n2YgL3g4zUB8fQs0EAO74ICHd/8ABPkc2qdMOnzR//JgKWtnnq
+                            [password] => $2y$10$vFVfJcLyISmYD8OnNEOAbuj9vOCqtQelvdORqt.34VuSA5Ixb3Lv.
                             [two_factor_secret] => 
                             [two_factor_recovery_codes] => 
                             [two_factor_confirmed_at] => 
-                            [remember_token] => Ub9qVmABEBpMdZIO2IpVEolPc0atwtdxKhIsBVd89lFUegeqy7AracqVUsXZ
+                            [remember_token] => 2bX5avJRYMTlqKKIve0lGhNfp7K7mS5dlbWzysvPSNDiTyHG4gCoWr9FcDA2
                             [created_at] => 
-                            [updated_at] => 2023-05-24 16:01:50
+                            [updated_at] => 2023-06-01 09:10:37
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [changes:protected] => Array
@@ -734,7 +746,6 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 18
                             [name] => Sara
-                            [user_type] => 0
                             [email] => saraTsseste@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$2wxabZpDBEkwp9nEU839m.szy1e5EaYNJfkXFp8iZk32Y7jo85Xhy
@@ -744,13 +755,14 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [original:protected] => Array
                         (
                             [id] => 18
                             [name] => Sara
-                            [user_type] => 0
                             [email] => saraTsseste@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$2wxabZpDBEkwp9nEU839m.szy1e5EaYNJfkXFp8iZk32Y7jo85Xhy
@@ -760,6 +772,8 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [changes:protected] => Array
@@ -851,8 +865,7 @@ Illuminate\Database\Eloquent\Collection Object
                     [attributes:protected] => Array
                         (
                             [id] => 19
-                            [name] => Sara
-                            [user_type] => 0
+                            [name] => Sara c/photo
                             [email] => saraTessssste@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$AkhS8fyQp9f5Mb9qaBH/VuEyl/uegAodQ2v7LJcJteQ7syouGMBgS
@@ -862,13 +875,14 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [original:protected] => Array
                         (
                             [id] => 19
-                            [name] => Sara
-                            [user_type] => 0
+                            [name] => Sara c/photo
                             [email] => saraTessssste@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$AkhS8fyQp9f5Mb9qaBH/VuEyl/uegAodQ2v7LJcJteQ7syouGMBgS
@@ -878,6 +892,8 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [changes:protected] => Array
@@ -969,8 +985,7 @@ Illuminate\Database\Eloquent\Collection Object
                     [attributes:protected] => Array
                         (
                             [id] => 20
-                            [name] => saraTeste@gmail.com
-                            [user_type] => 0
+                            [name] => Sara Editada
                             [email] => saraTeste16@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$Pd6DcPAq4O.KTvh9Guc98OzLyJXXwVdYMH5mtm8pRr1j2AkFMMCvq
@@ -980,13 +995,14 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [original:protected] => Array
                         (
                             [id] => 20
-                            [name] => saraTeste@gmail.com
-                            [user_type] => 0
+                            [name] => Sara Editada
                             [email] => saraTeste16@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$Pd6DcPAq4O.KTvh9Guc98OzLyJXXwVdYMH5mtm8pRr1j2AkFMMCvq
@@ -996,6 +1012,8 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [changes:protected] => Array
@@ -1088,7 +1106,6 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 21
                             [name] => Sara
-                            [user_type] => 0
                             [email] => saraTestsssssse@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$uq0Lav0SbTyjvsmkGeuZfevVDCSU3KjHBo7xpXjtMKQfVxi/v2/hK
@@ -1098,13 +1115,14 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [original:protected] => Array
                         (
                             [id] => 21
                             [name] => Sara
-                            [user_type] => 0
                             [email] => saraTestsssssse@gmail.com
                             [email_verified_at] => 
                             [password] => $2y$10$uq0Lav0SbTyjvsmkGeuZfevVDCSU3KjHBo7xpXjtMKQfVxi/v2/hK
@@ -1114,6 +1132,8 @@ Illuminate\Database\Eloquent\Collection Object
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [changes:protected] => Array
@@ -1206,32 +1226,34 @@ Illuminate\Database\Eloquent\Collection Object
                         (
                             [id] => 22
                             [name] => Sara
-                            [user_type] => 1
                             [email] => sara.c.mon@gmail.com
                             [email_verified_at] => 
-                            [password] => $2y$10$5p93G3ynXU9SdyZ7aXbfHOMsgDTheYt5JKKOW8ZQVjtLRBe6lV6z2
+                            [password] => $2y$10$uyNg66iVLW956RyzPPkgVe791EVeluvfoTq5dpV8uJr108MirhyOC
                             [two_factor_secret] => 
                             [two_factor_recovery_codes] => 
                             [two_factor_confirmed_at] => 
-                            [remember_token] => 60RP3TXyynYNn9SeHLSgZNReJ7LvcYfaAHYO4i24ZywLJ88ysrZmEvmIgcQK
+                            [remember_token] => TzAMcAJ8lSytw4TNuSJVvzTcgdo8OL8oUJWJuVXCsSCjVxIOESFVUUZbgIj2
                             [created_at] => 
-                            [updated_at] => 2023-05-24 15:45:57
+                            [updated_at] => 2023-06-01 09:00:38
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [original:protected] => Array
                         (
                             [id] => 22
                             [name] => Sara
-                            [user_type] => 1
                             [email] => sara.c.mon@gmail.com
                             [email_verified_at] => 
-                            [password] => $2y$10$5p93G3ynXU9SdyZ7aXbfHOMsgDTheYt5JKKOW8ZQVjtLRBe6lV6z2
+                            [password] => $2y$10$uyNg66iVLW956RyzPPkgVe791EVeluvfoTq5dpV8uJr108MirhyOC
                             [two_factor_secret] => 
                             [two_factor_recovery_codes] => 
                             [two_factor_confirmed_at] => 
-                            [remember_token] => 60RP3TXyynYNn9SeHLSgZNReJ7LvcYfaAHYO4i24ZywLJ88ysrZmEvmIgcQK
+                            [remember_token] => TzAMcAJ8lSytw4TNuSJVvzTcgdo8OL8oUJWJuVXCsSCjVxIOESFVUUZbgIj2
                             [created_at] => 
-                            [updated_at] => 2023-05-24 15:45:57
+                            [updated_at] => 2023-06-01 09:00:38
+                            [user_type] => 0
+                            [photo] => 
                         )
 
                     [changes:protected] => Array
