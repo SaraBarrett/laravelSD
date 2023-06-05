@@ -17,8 +17,8 @@ class TaskResource extends JsonResource
         //return parent::toArray($request);
 
         return [
-            'nome' => $this->name,
-            'descrição' => $this->description,
+            'name' => $this->name,
+            'description' => $this->description,
         ];
     }
 }
