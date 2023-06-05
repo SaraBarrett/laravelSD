@@ -74,6 +74,11 @@ Route::get(
     [UserController::class, 'viewUser']
 )->name('show_user');
 
+Route::post(
+    '/update_user',
+    [UserController::class, 'editUser']
+)->name('update_user');
+
 Route::get(
     '/delete_user{id}',
     [UserController::class, 'deleteUser']

@@ -30,7 +30,6 @@
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Nome</th>
-                    <th scope="col">Password</th>
                     <th scope="col">Email</th>
                     <th></th>
                 </tr>
@@ -39,11 +38,15 @@
                 @foreach ($allUsers as $item)
                     <tr>
                         <th scope="row">{{ $item->id }}</th>
+                        <td><img width="30px" height="30px"
+                                src="{{ $item->photo ? asset('storage/' . $item->photo) : asset('images/nophoto.jpg') }}"
+                                alt=""></td>
                         <td>{{ $item->name }}</td>
-                        <td>{{ $item->password }}</td>
+
                         <td>{{ $item->email }}</td>
                         <td>
-                            <a href="{{ route('show_user', $item->id) }}"><button class="btn btn-info">Ver</button></a>
+                            <a href="{{ route('show_user', $item->id) }}"><button class="btn btn-info">Ver /
+                                    Editar</button></a>
                             <a href="{{ route('delete_user', $item->id) }}"><button
                                     class="btn btn-danger">Delete</button></a>
                         </td>

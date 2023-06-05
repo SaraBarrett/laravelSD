@@ -13,7 +13,6 @@ class UserController extends Controller
 {
     public function index()
     {
-        dd(Storage::exists('imagens/teste.jpg'));
         $aMinhaVariavel = "Hello turma de Soft Dev!";
 
         $usersModel = User::all();
@@ -66,6 +65,28 @@ class UserController extends Controller
             ->first();
 
         return view('users.view_user', compact('ourUser'));
+    }
+    public function editUser(Request $request)
+    {
+        $request->validate(['name' => 'required']);
+
+        $photo = null;
+
+        if ($request->hasFile('photo')) {
+
+            $photo = Storage::putFile('uploadedFiles', $request->photo);
+        }
+
+        DB::table('users')
+            ->where('id', $request->id)
+            ->update(
+                [
+                    'name' => $request->name,
+                    'photo' => $photo,
+                ]
+            );
+
+        return redirect('home_all_users')->with('message', 'Utilizador editado com sucesso');
     }
 
     public function deleteUser($id)
