@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\TaskResource;
 use Illuminate\Http\Request;
 use App\Models\Task;
 
@@ -34,9 +35,9 @@ class TaskAPiController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Task $task)
+    public function show(Task $task): TaskResource
     {
-        return $task;
+        return  new TaskResource($task);
     }
 
     /**
