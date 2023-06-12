@@ -1,0 +1,104 @@
+App\Models\Task Object
+(
+    [connection:protected] => mysql
+    [table:protected] => tasks
+    [primaryKey:protected] => id
+    [keyType:protected] => int
+    [incrementing] => 1
+    [with:protected] => Array
+        (
+        )
+
+    [withCount:protected] => Array
+        (
+        )
+
+    [preventsLazyLoading] => 
+    [perPage:protected] => 15
+    [exists] => 1
+    [wasRecentlyCreated] => 
+    [escapeWhenCastingToString:protected] => 
+    [attributes:protected] => Array
+        (
+            [id] => 12
+            [users_id] => 4
+            [name] => Fazer Projecto final
+            [description] => elaborar um projecto que me ajude a entrar no mercado de trabalho
+            [due_at] => 
+            [status] => 
+            [created_at] => 
+            [updated_at] => 
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 12
+            [users_id] => 4
+            [name] => Fazer Projecto final
+            [description] => elaborar um projecto que me ajude a entrar no mercado de trabalho
+            [due_at] => 
+            [status] => 
+            [created_at] => 
+            [updated_at] => 
+        )
+
+    [changes:protected] => Array
+        (
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [classCastCache:protected] => Array
+        (
+        )
+
+    [attributeCastCache:protected] => Array
+        (
+        )
+
+    [dateFormat:protected] => 
+    [appends:protected] => Array
+        (
+        )
+
+    [dispatchesEvents:protected] => Array
+        (
+        )
+
+    [observables:protected] => Array
+        (
+        )
+
+    [relations:protected] => Array
+        (
+        )
+
+    [touches:protected] => Array
+        (
+        )
+
+    [timestamps] => 1
+    [usesUniqueIds] => 
+    [hidden:protected] => Array
+        (
+        )
+
+    [visible:protected] => Array
+        (
+        )
+
+    [fillable:protected] => Array
+        (
+            [0] => name
+            [1] => description
+            [2] => users_id
+        )
+
+    [guarded:protected] => Array
+        (
+            [0] => *
+        )
+
+)

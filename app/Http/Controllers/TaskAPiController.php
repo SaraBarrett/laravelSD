@@ -30,7 +30,16 @@ class TaskAPiController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name' => 'required',
+            'description' => 'required',
+            'users_id' => 'required',
+        ]);
+
+
+        $task = Task::create($request->all());
+
+        return new TaskResource($task);
     }
 
     /**
@@ -38,6 +47,8 @@ class TaskAPiController extends Controller
      */
     public function show(Task $task): TaskResource
     {
+        file_put_contents("show1.txt", print_r($task, true));
+
         return  new TaskResource($task);
     }
 
@@ -52,16 +63,21 @@ class TaskAPiController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, Task $task)
     {
-        //
+        $task = $task->update($request->all());
+
+        return $task;
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(Task $task)
     {
-        //
+
+        $task = $task->delete();
+
+        return response()->json('deleted');
     }
 }
